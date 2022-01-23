@@ -12,16 +12,16 @@
 <body>
     <div class="container">
         <h1 class="glitch">Please Login</h1>
-        <form>
+        <form id="authForm">
             <div class="form-control">
-                <input type="text" required>
+                <input type="text" id="userName" required>
                 <label>Email</label>
             </div>
             <div class="form-control">
-                <input type="password" required>
+                <input type="password" id="userPassword" required>
                 <label>Password</label>
             </div>
-            <button class="btn">Login</button>
+            <button class="btn" type="button" id="submitBtn">Login</button>
             <p class="text">Don't have an account?<a href="#">Register</a></p>
         </form>
     </div>
